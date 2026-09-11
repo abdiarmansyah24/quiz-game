@@ -98,904 +98,830 @@ const QUESTION_BANK = [
     },
     {
         category: "MATH",
-        text: "Berapakah akar kuadrat dari 144 dikali 5?",
-        options: ["60", "50", "72", "48"],
-        correctIndex: 0
-    },
-    {
-        category: "MATH",
-        text: "Jika sebuah lingkaran memiliki jari-jari 7 cm, berapa kelilingnya? (π ≈ 22/7)",
-        options: ["44 cm", "154 cm", "88 cm", "22 cm"],
-        correctIndex: 0
-    },
-    {
-        category: "MATH",
-        text: "Berapakah hasil dari 2 pangkat 10 (2¹⁰)?",
-        options: ["1024", "512", "2048", "1000"],
-        correctIndex: 0
-    },
-    {
-        category: "MATH",
-        text: "Rata-rata dari nilai 10, 20, 30, 40, dan 50 adalah...",
+        text: "Berapakah hasil dari 15% dari 200?",
         options: ["30", "25", "35", "40"],
         correctIndex: 0
     },
     {
         category: "MATH",
-        text: "Berapakah 15% dari 200?",
-        options: ["30", "25", "35", "40"],
+        text: "Pola angka: 3, 6, 11, 18, 27, ... Berapakah angka selanjutnya?",
+        options: ["38", "36", "40", "42"],
         correctIndex: 0
     },
     {
         category: "MATH",
-        text: "Berapakah sisa pembagian (modulo) dari 29 mod 4?",
-        options: ["1", "2", "3", "0"],
+        text: "Berapakah akar kuadrat dari 144?",
+        options: ["12", "14", "16", "10"],
+        correctIndex: 0
+    },
+    {
+        category: "MATH",
+        text: "Jika 5 mesin membuat 5 widget dalam 5 menit, berapa menit yang dibutuhkan 100 mesin untuk membuat 100 widget?",
+        options: ["5 menit", "100 menit", "1 menit", "50 menit"],
+        correctIndex: 0
+    },
+    {
+        category: "MATH",
+        text: "Berapakah hasil dari (7 × 6) + (18 ÷ 3)?",
+        options: ["48", "42", "46", "50"],
+        correctIndex: 0
+    },
+    {
+        category: "MATH",
+        text: "Sebuah segitiga memiliki alas 10 cm dan tinggi 12 cm. Berapakah luasnya?",
+        options: ["60 cm²", "120 cm²", "30 cm²", "90 cm²"],
         correctIndex: 0
     },
 
     // --- KATEGORI: TECH (10 Soal) ---
     {
         category: "TECH",
-        text: "Apakah kepanjangan dari istilah AI dalam dunia teknologi?",
+        text: "Apa kepanjangan dari singkatan 'AI' dalam dunia teknologi?",
         options: ["Artificial Intelligence", "Automated Information", "Advanced Integration", "Algorithm Interface"],
         correctIndex: 0
     },
     {
         category: "TECH",
-        text: "Manakah bahasa pemrograman yang paling populer digunakan dalam pembelajaran Machine Learning?",
-        options: ["Python", "HTML", "CSS", "PHP"],
+        text: "Bahasa pemrograman mana yang paling populer digunakan untuk Machine Learning dan Data Science?",
+        options: ["Python", "HTML", "C++", "PHP"],
         correctIndex: 0
     },
     {
         category: "TECH",
-        text: "Komponen hardware yang berfungsi sebagai 'otak' pemrosesan utama komputer adalah...",
-        options: ["CPU", "RAM", "SSD", "GPU"],
+        text: "Komponen hardware mana yang sering disebut sebagai 'Otak' dari sebuah komputer?",
+        options: ["CPU (Processor)", "RAM", "Harddisk / SSD", "Power Supply"],
         correctIndex: 0
     },
     {
         category: "TECH",
-        text: "Apakah fungsi utama dari sistem RAM (Random Access Memory) pada komputer?",
-        options: ["Penyimpanan data sementara kecepatan tinggi", "Penyimpanan dokumen permanen", "Pemrosesan grafis 3D", "Menyuplai daya ke motherboard"],
+        text: "Protokol aman apa yang digunakan untuk enkripsi komunikasi di web (URL diawali https://)?",
+        options: ["HTTPS / TLS", "HTTP", "FTP", "SMTP"],
         correctIndex: 0
     },
     {
         category: "TECH",
-        text: "Protokol keamanan web yang ditandai dengan ikon gembok aman (HTTPS) menggunakan enkripsi...",
-        options: ["SSL / TLS", "FTP", "HTTP Plain", "SMTP"],
+        text: "Istilah 'Cloud Computing' mengacu pada...",
+        options: ["Penyimpanan dan komputasi melalui jaringan Internet", "Komputer buatan cuaca", "Kecepatan akses data secara offline", "Jaringan kabel bawah laut"],
         correctIndex: 0
     },
     {
         category: "TECH",
-        text: "Siapakah pencipta dan pendiri World Wide Web (WWW) pertama kali?",
-        options: ["Tim Berners-Lee", "Bill Gates", "Steve Jobs", "Mark Zuckerberg"],
+        text: "Sistem operasi opensource berbasis kernel Linux yang paling banyak digunakan di smartphone adalah...",
+        options: ["Android", "iOS", "Windows Phone", "Symbian"],
         correctIndex: 0
     },
     {
         category: "TECH",
-        text: "Istilah 'Open Source' dalam perangkat lunak berarti...",
-        options: ["Kode sumber terbuka dan bebas diakses/dimodifikasi", "Software berbayar lisensi mahal", "Software tanpa garansi keamanan", "Software khusus buatan pemerintah"],
+        text: "Siapakah tokoh pencetus istilah 'Artificial Intelligence' pada konferensi Dartmouth 1956?",
+        options: ["John McCarthy", "Alan Turing", "Steve Jobs", "Bill Gates"],
         correctIndex: 0
     },
     {
         category: "TECH",
-        text: "Struktur data yang menganut prinsip LIFO (Last In First Out) adalah...",
-        options: ["Stack", "Queue", "Array", "Linked List"],
+        text: "Model AI generasi baru buatan Google yang mampu memproses teks, audio, dan gambar secara multimodal adalah...",
+        options: ["Gemini", "ChatGPT", "Claude", "Llama"],
         correctIndex: 0
     },
     {
         category: "TECH",
-        text: "Teknologi jaringan seluler generasi ke-5 yang menawarkan kecepatan ultra tinggi dinamakan...",
-        options: ["5G", "4G LTE", "Wi-Fi 6", "Bluetooth 5"],
+        text: "Satuan terkecil data dalam komputasi biner yang bernilai 0 atau 1 disebut...",
+        options: ["Bit", "Byte", "Kilobyte", "Pixel"],
         correctIndex: 0
     },
     {
         category: "TECH",
-        text: "Model kecerdasan buatan ChatGPT dikembangkan oleh perusahaan teknologi...",
-        options: ["OpenAI", "Google", "Microsoft", "Meta"],
+        text: "Teknologi terdesentralisasi yang menjadi dasar dari aset Kripto (Cryptocurrency) adalah...",
+        options: ["Blockchain", "Big Data", "Cloud Base", "Virtual Machine"],
         correctIndex: 0
     },
 
     // --- KATEGORI: PATTERN (10 Soal) ---
     {
         category: "PATTERN",
-        text: "Perhatikan deret huruf: A, C, E, G, ... Huruf berikutnya adalah?",
+        text: "Lengkapi deret simbol pola: 🔺, 🔵, 🔺, 🔵, 🔺, ...",
+        options: ["🔵", "🔺", "🟩", "⭐"],
+        correctIndex: 0
+    },
+    {
+        category: "PATTERN",
+        text: "Manakah kelanjutan pola huruf ini: A, C, E, G, ...?",
         options: ["I", "H", "J", "K"],
         correctIndex: 0
     },
     {
         category: "PATTERN",
-        text: "Deret angka Fibonacci: 1, 1, 2, 3, 5, 8, ... Berapakah angka selanjutnya?",
-        options: ["13", "11", "12", "15"],
+        text: "Perhatikan pola: (1, 2), (2, 4), (3, 6), (4, 8), (5, ...)",
+        options: ["10", "9", "12", "15"],
         correctIndex: 0
     },
     {
         category: "PATTERN",
-        text: "Deret angka: 3, 6, 12, 24, 48, ... Pola perkalian deret ini adalah multiplier berapa?",
-        options: ["x2", "x3", "+3", "+6"],
+        text: "Deret angka berpola selisih: 5, 10, 20, 40, ... Angka berikutnya?",
+        options: ["80", "60", "70", "100"],
         correctIndex: 0
     },
     {
         category: "PATTERN",
-        text: "Perhatikan pola: 100, 95, 85, 70, 50, ... Angka berikutnya adalah?",
-        options: ["25", "30", "35", "20"],
+        text: "Analogi Kata: Kucing : Meong = Anjing : ...",
+        options: ["Gonggong", "Ringkik", "Membawa", "Kokok"],
         correctIndex: 0
     },
     {
         category: "PATTERN",
-        text: "Pola kata: Kucing -> Gambar -> Rumah -> ... (Perhatikan huruf terakhir menjadi huruf awal). Kata berikut yang sesuai?",
-        options: ["Harimau", "Mobil", "Buku", "Sepeda"],
+        text: "Pola susunan kata: SENIN, SELASA, RABU, KAMIS, ...",
+        options: ["JUMAT", "SABTU", "MINGGU", "LIBUR"],
         correctIndex: 0
     },
     {
         category: "PATTERN",
-        text: "Deret angka: 5, 10, 7, 12, 9, 14, ... Angka berikutnya adalah?",
-        options: ["11", "16", "13", "10"],
+        text: "Analogi Geometri: Kubus : Persegi = Bola : ...",
+        options: ["Lingkaran", "Segitiga", "Tabung", "Kerucut"],
         correctIndex: 0
     },
     {
         category: "PATTERN",
-        text: "Deret huruf berpola: Z, Y, X, W, ... Huruf berikutnya adalah?",
-        options: ["V", "U", "T", "S"],
+        text: "Lengkapi pola angka majemuk: 100, 95, 90, 85, ...",
+        options: ["80", "75", "82", "84"],
         correctIndex: 0
     },
     {
         category: "PATTERN",
-        text: "Jika 1 = 3, 2 = 3, 3 = 5, 4 = 4, 5 = 4, berapakah nilai dari 6 (berdasarkan jumlah huruf kata)?",
-        options: ["3 (Enam)", "6", "4", "5"],
+        text: "Pola urutan: Jan, Feb, Mar, Apr, ...",
+        options: ["Mei", "Jun", "Jul", "Agu"],
         correctIndex: 0
     },
     {
         category: "PATTERN",
-        text: "Pola kombinasi: 1A, 2B, 4C, 8D, ... Pasangan berikutnya adalah?",
-        options: ["16E", "12E", "16F", "10E"],
-        correctIndex: 0
-    },
-    {
-        category: "PATTERN",
-        text: "Deret angka kuadrat: 1, 4, 9, 16, 25, 36, ... Angka berikutnya adalah?",
-        options: ["49", "42", "64", "56"],
+        text: "Analogi Hubungan: Mobil : Bensin = Manusia : ...",
+        options: ["Makanan", "Pakaian", "Rumah", "Kendaraan"],
         correctIndex: 0
     },
 
     // --- KATEGORI: GENERAL (10 Soal) ---
     {
         category: "GENERAL",
-        text: "Planet manakah yang dikenal sebagai 'Planet Merah' dalam sistem tata surya kita?",
-        options: ["Mars", "Venus", "Yupiter", "Merkurius"],
+        text: "Apakah nama planet terbesar di Tata Surya kita?",
+        options: ["Jupiter", "Saturnus", "Bumi", "Mars"],
         correctIndex: 0
     },
     {
         category: "GENERAL",
-        text: "Apakah nama organ tubuh manusia yang bertanggung jawab memompa darah ke seluruh tubuh?",
-        options: ["Jantung", "Paru-paru", "Hati", "Ginjal"],
+        text: "Ibu kota dari negara Indonesia saat ini adalah...",
+        options: ["Jakarta", "Nusantara (IKN)", "Bandung", "Surabaya"],
         correctIndex: 0
     },
     {
         category: "GENERAL",
-        text: "Senyawa kimia dengan rumus H₂O dalam kehidupan sehari-hari adalah...",
-        options: ["Air", "Oksigen", "Garam", "Karbon Dioksida"],
-        correctIndex: 0
-    },
-    {
-        category: "GENERAL",
-        text: "Siapakah ilmuwan terkenal yang merumuskan Teori Relativitas (E = mc²)?",
+        text: "Siapakah ilmuwan terkenal pencetus Teori Relativitas (E=mc²)?",
         options: ["Albert Einstein", "Isaac Newton", "Nikola Tesla", "Galileo Galilei"],
         correctIndex: 0
     },
     {
         category: "GENERAL",
+        text: "Organ tubuh manusia yang berfungsi memompa darah ke seluruh tubuh adalah...",
+        options: ["Jantung", "Paru-paru", "Hati", "Ginjal"],
+        correctIndex: 0
+    },
+    {
+        category: "GENERAL",
+        text: "Unsur kimia dengan lambang 'O' dan nomor atom 8 adalah...",
+        options: ["Oksigen", "Emas (Aurum)", "Hidrogen", "Nitrogen"],
+        correctIndex: 0
+    },
+    {
+        category: "GENERAL",
+        text: "Benua terkecil di dunia berdasarkan luas daratannya adalah...",
+        options: ["Australia", "Eropa", "Antartika", "Asia"],
+        correctIndex: 0
+    },
+    {
+        category: "GENERAL",
         text: "Candi Borobudur yang megah terletak di provinsi...",
-        options: ["Jawa Tengah", "D.I. Yogyakarta", "Jawa Timur", "Jawa Barat"],
+        options: ["Jawa Tengah", "Jawa Timur", "DI Yogyakarta", "Jawa Barat"],
         correctIndex: 0
     },
     {
         category: "GENERAL",
-        text: "Bahasa resmi yang paling banyak digunakan sebagai bahasa internasional dunia adalah...",
-        options: ["Bahasa Inggris", "Bahasa Mandarin", "Bahasa Spanyol", "Bahasa Perancis"],
+        text: "Proses pembuatan makanan pada tumbuhan hijau menggunakan bantuan cahaya matahari disebut...",
+        options: ["Fotosintesis", "Respirasi", "Klorofil", "Transpirasi"],
         correctIndex: 0
     },
     {
         category: "GENERAL",
-        text: "Gas utama yang paling melimpah di atmosfer bumi (sekitar 78%) adalah...",
-        options: ["Nitrogen", "Oksigen", "Argon", "Karbon Dioksida"],
+        text: "Mata uang resmi negara Jepang adalah...",
+        options: ["Yen", "Won", "Yuan", "Ringgit"],
         correctIndex: 0
     },
     {
         category: "GENERAL",
-        text: "Hewan mamalia terbesar yang hidup di muka bumi saat ini adalah...",
-        options: ["Paus Biru", "Gajah Afrika", "Hiu Paus", "Jerapah"],
-        correctIndex: 0
-    },
-    {
-        category: "GENERAL",
-        text: "Benua terkecil di dunia berdasarkan luas wilayah daratan adalah...",
-        options: ["Australia", "Eropa", "Antartika", "Amerika Selatan"],
-        correctIndex: 0
-    },
-    {
-        category: "GENERAL",
-        text: "Proses pembuat makanan pada tumbuhan hijau menggunakan bantuan sinar matahari dinamakan...",
-        options: ["Fotosintesis", "Respirasi", "Transpirasi", "Oksidasi"],
+        text: "Laut terluas di dunia adalah Samudra...",
+        options: ["Pasifik", "Atlantik", "Hindia", "Arktik"],
         correctIndex: 0
     }
 ];
 
 // -------------------------------------------------------------------
-// 2. STATE MANAGEMENT
+// 2. STATE GAME & VARIABEL UTAMA
 // -------------------------------------------------------------------
-let playerName = "Amalia";
-let selectedCategory = "LOGIC";
-let selectedAiLevel = "smart";
-
-let sessionQuestions = [];
-let currentQuestionIndex = 0;
-
-let playerScore = 0;
-let aiScore = 0;
-
-let playerCorrectCount = 0;
-let aiCorrectCount = 0;
-
-let comboCount = 0;
-let bestCombo = 0;
-
-let timerInterval = null;
-let timeRemaining = 15;
-let totalAnswerTime = 0;
-let questionStartTime = 0;
-
-let isAnswered = false;
-let isSoundMuted = localStorage.getItem('human_ai_sound_muted') === 'true';
-
-let leaderboardData = JSON.parse(localStorage.getItem('human_ai_leaderboard')) || [];
-
-// -------------------------------------------------------------------
-// 3. DOM ELEMENTS SELECTION
-// -------------------------------------------------------------------
-const views = {
-    screenHome: document.getElementById('screenHome'),
-    screenPlayerName: document.getElementById('screenPlayerName'),
-    screenCategory: document.getElementById('screenCategory'),
-    screenAiSelection: document.getElementById('screenAiSelection'),
-    screenQuiz: document.getElementById('screenQuiz'),
-    screenResult: document.getElementById('screenResult'),
-    screenLeaderboard: document.getElementById('screenLeaderboard'),
-    screenHowToPlay: document.getElementById('screenHowToPlay'),
-    screenSettings: document.getElementById('screenSettings')
+let gameState = {
+    playerName: "Pemain",
+    selectedCategory: "LOGIC",
+    selectedAi: "smart", // rookie, smart, genius
+    currentQuestionIndex: 0,
+    questions: [],
+    playerScore: 0,
+    aiScore: 0,
+    playerCorrectCount: 0,
+    aiCorrectCount: 0,
+    currentCombo: 0,
+    bestCombo: 0,
+    totalTimeSpent: 0,
+    timer: 15,
+    timerInterval: null,
+    playerChoice: null,
+    aiChoice: null,
+    isAnswering: false
 };
 
-const navTabs = document.querySelectorAll('.nav-tab');
-const navBrandLink = document.getElementById('navBrandLink');
-
-// Buttons
-const homeStartBtn = document.getElementById('homeStartBtn');
-
-const playerNameInput = document.getElementById('playerNameInput');
-const nameError = document.getElementById('nameError');
-const nameContinueBtn = document.getElementById('nameContinueBtn');
-
-const categoryCards = document.querySelectorAll('.cat-glass-card');
-const catBackBtn = document.getElementById('catBackBtn');
-const catNextBtn = document.getElementById('catNextBtn');
-
-const aiCards = document.querySelectorAll('.ai-robot-card');
-const aiBackBtn = document.getElementById('aiBackBtn');
-const startQuizBtn = document.getElementById('startQuizBtn');
-
-// Quiz View
-const quizHumanName = document.getElementById('quizHumanName');
-const quizAiName = document.getElementById('quizAiName');
-const playerScoreEl = document.getElementById('playerScore');
-const aiScoreEl = document.getElementById('aiScore');
-
-const questionCounter = document.getElementById('questionCounter');
-const timerSeconds = document.getElementById('timerSeconds');
-const timerBarFill = document.getElementById('timerBarFill');
-
-const questionText = document.getElementById('questionText');
-const optionButtons = document.querySelectorAll('.opt-pill-btn');
-
-const aiOutcomeOverlay = document.getElementById('aiOutcomeOverlay');
-const aiThinkingState = document.getElementById('aiThinkingState');
-const roundResultState = document.getElementById('roundResultState');
-const outcomeBannerBadge = document.getElementById('outcomeBannerBadge');
-const outcomeBannerText = document.getElementById('outcomeBannerText');
-const playerChoiceTag = document.getElementById('playerChoiceTag');
-const playerCorrectBadge = document.getElementById('playerCorrectBadge');
-const aiChoiceTag = document.getElementById('aiChoiceTag');
-const aiCorrectBadge = document.getElementById('aiCorrectBadge');
-const nextQuestionBtn = document.getElementById('nextQuestionBtn');
-
-// Result View
-const resHumanScore = document.getElementById('resHumanScore');
-const resAiScore = document.getElementById('resAiScore');
-const winnerBanner = document.getElementById('winnerBanner');
-const winnerTitleText = document.getElementById('winnerTitleText');
-
-const statQuestions = document.getElementById('statQuestions');
-const statCorrect = document.getElementById('statCorrect');
-const statAccuracy = document.getElementById('statAccuracy');
-const statAvgTime = document.getElementById('statAvgTime');
-const statBestCombo = document.getElementById('statBestCombo');
-const statCategory = document.getElementById('statCategory');
-const statAiOpponent = document.getElementById('statAiOpponent');
-
-const resPlayAgainBtn = document.getElementById('resPlayAgainBtn');
-const resChangeAiBtn = document.getElementById('resChangeAiBtn');
-const resBackHomeBtn = document.getElementById('resBackHomeBtn');
-
-// Leaderboard View
-const leaderboardTbody = document.getElementById('leaderboardTbody');
-const emptyLbMsg = document.getElementById('emptyLbMsg');
-const lbBackBtn = document.getElementById('lbBackBtn');
-const clearLbBtn = document.getElementById('clearLbBtn');
-
-// How to Play & Settings
-const howBackBtn = document.getElementById('howBackBtn');
-const settingsBackBtn = document.getElementById('settingsBackBtn');
-const soundEffectsToggle = document.getElementById('soundEffectsToggle');
-const resetGameDataBtn = document.getElementById('resetGameDataBtn');
-const clearLeaderboardSettingBtn = document.getElementById('clearLeaderboardSettingBtn');
-
-const clickAudioFallback = document.getElementById('clickAudioFallback');
-
-// -------------------------------------------------------------------
-// 4. AUDIO SYNTHESIZER
-// -------------------------------------------------------------------
-let audioCtx = null;
-
-function getAudioContext() {
-    if (!audioCtx) {
-        const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-        if (AudioContextClass) audioCtx = new AudioContextClass();
+// Web Audio Synth Generator
+class WebAudioSynth {
+    constructor() {
+        this.ctx = null;
     }
-    if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
-    return audioCtx;
-}
 
-function playSound(type) {
-    if (isSoundMuted) return;
-
-    try {
-        const ctx = getAudioContext();
-        if (!ctx) return;
-
-        const osc = ctx.createOscillator();
-        const gain = ctx.createGain();
-
-        if (type === 'click') {
-            osc.type = 'sine';
-            osc.frequency.setValueAtTime(600, ctx.currentTime);
-            gain.gain.setValueAtTime(0.2, ctx.currentTime);
-            gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.05);
-            osc.connect(gain);
-            gain.connect(ctx.destination);
-            osc.start();
-            osc.stop(ctx.currentTime + 0.05);
-        } else if (type === 'correct') {
-            osc.type = 'triangle';
-            osc.frequency.setValueAtTime(523.25, ctx.currentTime);
-            osc.frequency.setValueAtTime(659.25, ctx.currentTime + 0.1);
-            gain.gain.setValueAtTime(0.3, ctx.currentTime);
-            gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.25);
-            osc.connect(gain);
-            gain.connect(ctx.destination);
-            osc.start();
-            osc.stop(ctx.currentTime + 0.25);
-        } else if (type === 'wrong') {
-            osc.type = 'sawtooth';
-            osc.frequency.setValueAtTime(220, ctx.currentTime);
-            osc.frequency.setValueAtTime(140, ctx.currentTime + 0.1);
-            gain.gain.setValueAtTime(0.3, ctx.currentTime);
-            gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.25);
-            osc.connect(gain);
-            gain.connect(ctx.destination);
-            osc.start();
-            osc.stop(ctx.currentTime + 0.25);
-        } else if (type === 'victory') {
-            osc.type = 'triangle';
-            osc.frequency.setValueAtTime(523.25, ctx.currentTime);
-            osc.frequency.setValueAtTime(659.25, ctx.currentTime + 0.12);
-            osc.frequency.setValueAtTime(783.99, ctx.currentTime + 0.24);
-            gain.gain.setValueAtTime(0.4, ctx.currentTime);
-            gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.5);
-            osc.connect(gain);
-            gain.connect(ctx.destination);
-            osc.start();
-            osc.stop(ctx.currentTime + 0.5);
+    init() {
+        if (!this.ctx) {
+            const AudioContext = window.AudioContext || window.webkitAudioContext;
+            if (AudioContext) this.ctx = new AudioContext();
         }
-    } catch (e) {}
+        if (this.ctx && this.ctx.state === 'suspended') {
+            this.ctx.resume();
+        }
+    }
+
+    playClick() {
+        if (!this.ctx) return;
+        try {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(600, this.ctx.currentTime);
+            osc.frequency.exponentialRampToValueAtTime(200, this.ctx.currentTime + 0.05);
+            gain.gain.setValueAtTime(0.15, this.ctx.currentTime);
+            gain.gain.linearRampToValueAtTime(0.01, this.ctx.currentTime + 0.05);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start();
+            osc.stop(this.ctx.currentTime + 0.05);
+        } catch (e) {}
+    }
+
+    playCorrect() {
+        if (!this.ctx) return;
+        try {
+            const now = this.ctx.currentTime;
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            osc.type = 'triangle';
+            osc.frequency.setValueAtTime(523.25, now); // C5
+            osc.frequency.setValueAtTime(659.25, now + 0.08); // E5
+            osc.frequency.setValueAtTime(783.99, now + 0.16); // G5
+            gain.gain.setValueAtTime(0.2, now);
+            gain.gain.linearRampToValueAtTime(0.01, now + 0.3);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start();
+            osc.stop(now + 0.3);
+        } catch (e) {}
+    }
+
+    playWrong() {
+        if (!this.ctx) return;
+        try {
+            const now = this.ctx.currentTime;
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            osc.type = 'sawtooth';
+            osc.frequency.setValueAtTime(220, now);
+            osc.frequency.linearRampToValueAtTime(110, now + 0.2);
+            gain.gain.setValueAtTime(0.2, now);
+            gain.gain.linearRampToValueAtTime(0.01, now + 0.25);
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            osc.start();
+            osc.stop(now + 0.25);
+        } catch (e) {}
+    }
 }
+
+const audioSynth = new WebAudioSynth();
 
 // -------------------------------------------------------------------
-// 5. SCREEN ROUTER & NAVIGATION
+// 3. SPA VIEW SWITCHING LOGIC
 // -------------------------------------------------------------------
 function showScreen(screenId) {
-    Object.keys(views).forEach(k => {
-        if (views[k]) views[k].classList.add('hidden');
+    document.querySelectorAll('.view-screen').forEach(screen => {
+        screen.classList.add('hidden');
     });
 
-    if (views[screenId]) {
-        views[screenId].classList.remove('hidden');
+    const targetScreen = document.getElementById(screenId);
+    if (targetScreen) {
+        targetScreen.classList.remove('hidden');
     }
 
-    // Update nav tab active status
-    navTabs.forEach(tab => {
-        if (tab.dataset.target === screenId) {
+    // Update active nav tab
+    document.querySelectorAll('.nav-tab').forEach(tab => {
+        if (tab.getAttribute('data-target') === screenId) {
             tab.classList.add('active');
         } else {
             tab.classList.remove('active');
         }
     });
 
-    playSound('click');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 // -------------------------------------------------------------------
-// 6. INITIALIZATION & EVENT LISTENERS
+// 4. INIT & EVENT LISTENERS
 // -------------------------------------------------------------------
-function initApp() {
-    navBrandLink.addEventListener('click', () => {
-        clearInterval(timerInterval);
-        showScreen('screenHome');
-    });
+document.addEventListener('DOMContentLoaded', () => {
 
-    navTabs.forEach(tab => {
+    // Nav Tab Clicks
+    document.querySelectorAll('.nav-tab').forEach(tab => {
         tab.addEventListener('click', () => {
-            const target = tab.dataset.target;
-            if (target === 'screenLeaderboard') renderLeaderboard();
-            showScreen(target);
+            audioSynth.init();
+            audioSynth.playClick();
+            const target = tab.getAttribute('data-target');
+            if (target) showScreen(target);
         });
     });
 
-    homeStartBtn.addEventListener('click', () => showScreen('screenPlayerName'));
+    // Home Action Buttons
+    const homeStartBtn = document.getElementById('homeStartBtn');
+    if (homeStartBtn) {
+        homeStartBtn.addEventListener('click', () => {
+            audioSynth.init();
+            audioSynth.playClick();
+            showScreen('screenPlayerName');
+        });
+    }
 
-    if (nameContinueBtn) nameContinueBtn.addEventListener('click', handleNameSubmit);
+    document.getElementById('featCategoriesBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); showScreen('screenCategory');
+    });
+    document.getElementById('featLeaderboardBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); loadLeaderboardData(); showScreen('screenLeaderboard');
+    });
+    document.getElementById('featAiBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); showScreen('screenAiSelection');
+    });
+    document.getElementById('featProgressBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); showScreen('screenLeaderboard');
+    });
+
+    // Player Name Continue
+    const nameContinueBtn = document.getElementById('nameContinueBtn');
+    const playerNameInput = document.getElementById('playerNameInput');
+    const nameError = document.getElementById('nameError');
+
+    if (nameContinueBtn) {
+        nameContinueBtn.addEventListener('click', () => {
+            audioSynth.init();
+            audioSynth.playClick();
+            const name = playerNameInput.value.trim();
+            if (!name) {
+                nameError.classList.remove('hidden');
+                playerNameInput.focus();
+                return;
+            }
+            nameError.classList.add('hidden');
+            gameState.playerName = name;
+            showScreen('screenCategory');
+        });
+    }
+
     if (playerNameInput) {
         playerNameInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') handleNameSubmit();
+            if (e.key === 'Enter') nameContinueBtn.click();
         });
     }
 
-    const featCat = document.getElementById('featCategoriesBtn');
-    const featLb = document.getElementById('featLeaderboardBtn');
-    const featAi = document.getElementById('featAiBtn');
-    const featProg = document.getElementById('featProgressBtn');
-
-    if (featCat) featCat.addEventListener('click', () => showScreen('screenPlayerName'));
-    if (featLb) featLb.addEventListener('click', () => showScreen('screenLeaderboard'));
-    if (featAi) featAi.addEventListener('click', () => showScreen('screenPlayerName'));
-    if (featProg) featProg.addEventListener('click', () => showScreen('screenLeaderboard'));
-
-    categoryCards.forEach(card => {
+    // Category Selection
+    document.querySelectorAll('.cat-glass-card').forEach(card => {
         card.addEventListener('click', () => {
-            categoryCards.forEach(c => c.classList.remove('active'));
+            audioSynth.init();
+            audioSynth.playClick();
+            document.querySelectorAll('.cat-glass-card').forEach(c => c.classList.remove('active'));
             card.classList.add('active');
-            selectedCategory = card.dataset.category;
-            playSound('click');
+            gameState.selectedCategory = card.getAttribute('data-category');
         });
     });
 
-    catBackBtn.addEventListener('click', () => showScreen('screenPlayerName'));
-    catNextBtn.addEventListener('click', () => showScreen('screenAiSelection'));
+    document.getElementById('catBackBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); showScreen('screenPlayerName');
+    });
+    document.getElementById('catNextBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); showScreen('screenAiSelection');
+    });
 
-    aiCards.forEach(card => {
+    // AI Selection
+    document.querySelectorAll('.ai-robot-card').forEach(card => {
         card.addEventListener('click', () => {
-            aiCards.forEach(c => c.classList.remove('active'));
+            audioSynth.init();
+            audioSynth.playClick();
+            document.querySelectorAll('.ai-robot-card').forEach(c => c.classList.remove('active'));
             card.classList.add('active');
-            selectedAiLevel = card.dataset.ai;
-            playSound('click');
+            gameState.selectedAi = card.getAttribute('data-ai');
         });
     });
 
-    aiBackBtn.addEventListener('click', () => showScreen('screenCategory'));
-    startQuizBtn.addEventListener('click', startNewQuizBattle);
+    document.getElementById('aiBackBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); showScreen('screenCategory');
+    });
+    document.getElementById('startQuizBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); startQuizGame();
+    });
 
-    optionButtons.forEach(btn => {
+    // Quiz Options Clicks
+    document.querySelectorAll('.opt-pill-btn').forEach(btn => {
         btn.addEventListener('click', () => {
-            const selectedIdx = parseInt(btn.dataset.index);
-            handlePlayerAnswer(selectedIdx);
+            if (gameState.isAnswering) return;
+            audioSynth.init();
+            audioSynth.playClick();
+            const idx = parseInt(btn.getAttribute('data-index'), 10);
+            handlePlayerAnswer(idx);
         });
     });
 
-    nextQuestionBtn.addEventListener('click', advanceToNextQuestion);
+    // Next Question Button
+    document.getElementById('nextQuestionBtn')?.addEventListener('click', () => {
+        audioSynth.init();
+        audioSynth.playClick();
+        document.getElementById('aiOutcomeOverlay').classList.add('hidden');
+        nextQuestion();
+    });
 
-    resPlayAgainBtn.addEventListener('click', startNewQuizBattle);
-    resChangeAiBtn.addEventListener('click', () => showScreen('screenAiSelection'));
-    resBackHomeBtn.addEventListener('click', () => showScreen('screenHome'));
+    // Battle Result Buttons
+    document.getElementById('resPlayAgainBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); startQuizGame();
+    });
+    document.getElementById('resChangeAiBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); showScreen('screenAiSelection');
+    });
+    document.getElementById('resBackHomeBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); showScreen('screenHome');
+    });
 
-    lbBackBtn.addEventListener('click', () => showScreen('screenHome'));
-    clearLbBtn.addEventListener('click', clearLeaderboard);
+    // Leaderboard Controls
+    document.getElementById('lbBackBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); showScreen('screenHome');
+    });
+    document.getElementById('clearLbBtn')?.addEventListener('click', clearLeaderboardData);
 
-    howBackBtn.addEventListener('click', () => showScreen('screenHome'));
-    settingsBackBtn.addEventListener('click', () => showScreen('screenHome'));
+    // How to Play & Settings Back
+    document.getElementById('howBackBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); showScreen('screenHome');
+    });
+    document.getElementById('settingsBackBtn')?.addEventListener('click', () => {
+        audioSynth.init(); audioSynth.playClick(); showScreen('screenHome');
+    });
 
-    if (resetGameDataBtn) {
-        resetGameDataBtn.addEventListener('click', () => {
-            if (confirm("Reset seluruh data game & rekor?")) {
-                localStorage.clear();
-                location.reload();
-            }
-        });
-    }
+    document.getElementById('clearLeaderboardSettingBtn')?.addEventListener('click', clearLeaderboardData);
 
-    if (clearLeaderboardSettingBtn) {
-        clearLeaderboardSettingBtn.addEventListener('click', clearLeaderboard);
-    }
-
-    showScreen('screenHome');
-}
-
-function handleNameSubmit() {
-    const val = playerNameInput.value.trim();
-    if (!val) {
-        nameError.classList.remove('hidden');
-        playerNameInput.focus();
-        return;
-    }
-
-    nameError.classList.add('hidden');
-    playerName = val;
-    showScreen('screenCategory');
-}
+    // Load Initial Leaderboard Data
+    loadLeaderboardData();
+});
 
 // -------------------------------------------------------------------
-// 7. QUIZ BATTLE ENGINE & GAMEPLAY LOGIC
+// 5. GAMEPLAY LOGIC & AI PROBABILITY ENGINE
 // -------------------------------------------------------------------
-function startNewQuizBattle() {
-    sessionQuestions = prepareQuestions(selectedCategory, 10);
-    
-    currentQuestionIndex = 0;
-    playerScore = 0;
-    aiScore = 0;
-    playerCorrectCount = 0;
-    aiCorrectCount = 0;
-    comboCount = 0;
-    bestCombo = 0;
-    totalAnswerTime = 0;
+function startQuizGame() {
+    // Filter questions based on category
+    let pool = [];
+    if (gameState.selectedCategory === "RANDOM") {
+        pool = [...QUESTION_BANK];
+    } else {
+        pool = QUESTION_BANK.filter(q => q.category === gameState.selectedCategory);
+    }
 
-    quizHumanName.textContent = playerName;
-    
-    let aiDisplayName = "AI";
-    if (selectedAiLevel === "rookie") aiDisplayName = "Rookie AI";
-    if (selectedAiLevel === "smart") aiDisplayName = "Smart AI";
-    if (selectedAiLevel === "genius") aiDisplayName = "Genius AI";
-    quizAiName.textContent = aiDisplayName;
+    if (pool.length === 0) pool = [...QUESTION_BANK];
 
-    updateScoreboardUI();
+    // Shuffle and pick 10 questions
+    pool.sort(() => Math.random() - 0.5);
+    gameState.questions = pool.slice(0, 10);
+
+    // Reset game counters
+    gameState.currentQuestionIndex = 0;
+    gameState.playerScore = 0;
+    gameState.aiScore = 0;
+    gameState.playerCorrectCount = 0;
+    gameState.aiCorrectCount = 0;
+    gameState.currentCombo = 0;
+    gameState.bestCombo = 0;
+    gameState.totalTimeSpent = 0;
+
+    // Update names in Header
+    document.getElementById('quizHumanName').textContent = gameState.playerName;
+    const aiNames = { rookie: "Rookie AI", smart: "Smart AI", genius: "Genius AI" };
+    document.getElementById('quizAiName').textContent = aiNames[gameState.selectedAi] || "AI";
+
     showScreen('screenQuiz');
-    
     loadQuestion(0);
 }
 
-function prepareQuestions(cat, count = 10) {
-    let pool = [];
-    if (cat === "RANDOM") {
-        pool = [...QUESTION_BANK];
-    } else {
-        pool = QUESTION_BANK.filter(q => q.category === cat);
-    }
-
-    if (pool.length < count) {
-        const others = QUESTION_BANK.filter(q => !pool.includes(q));
-        pool = [...pool, ...others];
-    }
-
-    for (let i = pool.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [pool[i], pool[j]] = [pool[j], pool[i]];
-    }
-
-    return pool.slice(0, count).map(q => {
-        const originalCorrectOption = q.options[q.correctIndex];
-        const shuffledOptions = [...q.options];
-        
-        for (let i = shuffledOptions.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
-        }
-
-        const newCorrectIndex = shuffledOptions.indexOf(originalCorrectOption);
-        return {
-            text: q.text,
-            options: shuffledOptions,
-            correctIndex: newCorrectIndex,
-            category: q.category
-        };
-    });
-}
-
 function loadQuestion(index) {
-    isAnswered = false;
+    if (index >= gameState.questions.length) {
+        finishBattle();
+        return;
+    }
 
-    const q = sessionQuestions[index];
-    questionCounter.textContent = `Question ${index + 1} of 10`;
-    questionText.textContent = q.text;
+    const q = gameState.questions[index];
+    gameState.currentQuestionIndex = index;
+    gameState.isAnswering = false;
 
-    optionButtons.forEach((btn, i) => {
-        btn.disabled = false;
+    // Update Counter & Scores
+    document.getElementById('questionCounter').textContent = `Pertanyaan ${index + 1} dari ${gameState.questions.length}`;
+    document.getElementById('playerScore').textContent = gameState.playerScore;
+    document.getElementById('aiScore').textContent = gameState.aiScore;
+
+    // Update Question & Options Text
+    document.getElementById('questionText').textContent = q.text;
+
+    // Shuffle option display while keeping track of correct option
+    const optionBtns = document.querySelectorAll('.opt-pill-btn');
+    const optionLabels = ["A", "B", "C", "D"];
+
+    optionBtns.forEach((btn, idx) => {
         btn.className = "opt-pill-btn";
-        const optVal = btn.querySelector('.opt-value');
-        if (optVal) optVal.textContent = q.options[i];
+        btn.disabled = false;
+        btn.querySelector('.opt-value').textContent = q.options[idx];
     });
 
-    aiOutcomeOverlay.classList.add('hidden');
-    aiThinkingState.classList.remove('hidden');
-    roundResultState.classList.add('hidden');
+    // Reset AI Overlay
+    document.getElementById('aiOutcomeOverlay').classList.add('hidden');
+    document.getElementById('aiThinkingState').classList.remove('hidden');
+    document.getElementById('roundResultState').classList.add('hidden');
 
+    // Start 15s Timer
     startTimer();
 }
 
 function startTimer() {
-    clearInterval(timerInterval);
-    timeRemaining = 15;
-    questionStartTime = performance.now();
+    clearInterval(gameState.timerInterval);
+    gameState.timer = 15;
+    const timerText = document.getElementById('timerSeconds');
+    const timerFill = document.getElementById('timerBarFill');
 
-    timerSeconds.textContent = `${timeRemaining}s`;
-    timerBarFill.style.width = '100%';
+    timerText.textContent = `15s`;
+    timerFill.style.width = `100%`;
 
-    timerInterval = setInterval(() => {
-        timeRemaining--;
-        timerSeconds.textContent = `${timeRemaining}s`;
-        
-        const pct = (timeRemaining / 15) * 100;
-        timerBarFill.style.width = `${pct}%`;
+    const startTime = Date.now();
 
-        if (timeRemaining <= 0) {
-            clearInterval(timerInterval);
-            handlePlayerTimeout();
+    gameState.timerInterval = setInterval(() => {
+        const elapsed = Math.floor((Date.now() - startTime) / 1000);
+        const remaining = Math.max(0, 15 - elapsed);
+        gameState.timer = remaining;
+
+        timerText.textContent = `${remaining}s`;
+        const pct = (remaining / 15) * 100;
+        timerFill.style.width = `${pct}%`;
+
+        if (remaining <= 0) {
+            clearInterval(gameState.timerInterval);
+            if (!gameState.isAnswering) {
+                handlePlayerAnswer(-1); // Timeout
+            }
         }
-    }, 1000);
+    }, 200);
 }
 
-function handlePlayerAnswer(selectedIdx) {
-    if (isAnswered) return;
-    isAnswered = true;
-    clearInterval(timerInterval);
+function handlePlayerAnswer(playerChoiceIdx) {
+    gameState.isAnswering = true;
+    clearInterval(gameState.timerInterval);
 
-    const timeSpent = (performance.now() - questionStartTime) / 1000;
-    totalAnswerTime += timeSpent;
+    const timeTaken = 15 - gameState.timer;
+    gameState.totalTimeSpent += timeTaken;
 
-    const currentQ = sessionQuestions[currentQuestionIndex];
-    const isPlayerCorrect = (selectedIdx === currentQ.correctIndex);
+    gameState.playerChoice = playerChoiceIdx;
 
-    optionButtons.forEach((btn, i) => {
+    // Highlight selected option
+    const optionBtns = document.querySelectorAll('.opt-pill-btn');
+    optionBtns.forEach((btn, idx) => {
         btn.disabled = true;
-        if (i === selectedIdx) {
+        if (idx === playerChoiceIdx) {
             btn.classList.add('selected');
         }
     });
 
-    processRoundOutcome(isPlayerCorrect, selectedIdx, timeRemaining);
-}
-
-function handlePlayerTimeout() {
-    if (isAnswered) return;
-    isAnswered = true;
-
-    totalAnswerTime += 15;
-    optionButtons.forEach(btn => btn.disabled = true);
-
-    processRoundOutcome(false, -1, 0);
-}
-
-function processRoundOutcome(isPlayerCorrect, playerChoiceIdx, remainingSec) {
-    const currentQ = sessionQuestions[currentQuestionIndex];
-    
-    aiOutcomeOverlay.classList.remove('hidden');
-    aiThinkingState.classList.remove('hidden');
-    roundResultState.classList.add('hidden');
-
+    // Calculate AI Answer Choice based on difficulty accuracy probability
+    const q = gameState.questions[gameState.currentQuestionIndex];
     let aiAccuracyProb = 0.70;
-    if (selectedAiLevel === "smart") aiAccuracyProb = 0.85;
-    if (selectedAiLevel === "genius") aiAccuracyProb = 0.95;
+    if (gameState.selectedAi === "smart") aiAccuracyProb = 0.85;
+    if (gameState.selectedAi === "genius") aiAccuracyProb = 0.95;
 
     const isAiCorrect = Math.random() < aiAccuracyProb;
-    let aiChoiceIdx = currentQ.correctIndex;
-
-    if (!isAiCorrect) {
-        const wrongIndices = [0, 1, 2, 3].filter(idx => idx !== currentQ.correctIndex);
-        aiChoiceIdx = wrongIndices[Math.floor(Math.random() * wrongIndices.length)];
+    if (isAiCorrect) {
+        gameState.aiChoice = q.correctIndex;
+    } else {
+        // Pick wrong option
+        const wrongOpts = [0, 1, 2, 3].filter(i => i !== q.correctIndex);
+        gameState.aiChoice = wrongOpts[Math.floor(Math.random() * wrongOpts.length)];
     }
 
-    const optionLetters = ['A', 'B', 'C', 'D'];
-    const playerChoiceLetter = playerChoiceIdx >= 0 ? optionLetters[playerChoiceIdx] : '-';
-    const aiChoiceLetter = optionLetters[aiChoiceIdx] || 'A';
+    // Show AI Thinking Scan Overlay
+    const overlay = document.getElementById('aiOutcomeOverlay');
+    const thinkingState = document.getElementById('aiThinkingState');
+    const roundResultState = document.getElementById('roundResultState');
 
+    overlay.classList.remove('hidden');
+    thinkingState.classList.remove('hidden');
+    roundResultState.classList.add('hidden');
+
+    // Simulate AI thinking delay (1.2 seconds)
     setTimeout(() => {
-        aiThinkingState.classList.add('hidden');
+        thinkingState.classList.add('hidden');
         roundResultState.classList.remove('hidden');
-
-        playerChoiceTag.textContent = playerChoiceLetter;
-        aiChoiceTag.textContent = aiChoiceLetter;
-
-        if (isPlayerCorrect) {
-            playerCorrectBadge.textContent = "Correct ✓";
-            playerCorrectBadge.className = "c-badge correct";
-            playerChoiceTag.className = "c-val correct";
-        } else {
-            playerCorrectBadge.textContent = "Wrong ✗";
-            playerCorrectBadge.className = "c-badge wrong";
-            playerChoiceTag.className = "c-val wrong";
-        }
-
-        if (isAiCorrect) {
-            aiCorrectBadge.textContent = "Correct ✓";
-            aiCorrectBadge.className = "c-badge correct";
-            aiChoiceTag.className = "c-val correct";
-        } else {
-            aiCorrectBadge.textContent = "Wrong ✗";
-            aiCorrectBadge.className = "c-badge wrong";
-            aiChoiceTag.className = "c-val wrong";
-        }
-
-        if (isPlayerCorrect) {
-            playerCorrectCount++;
-            comboCount++;
-            if (comboCount > bestCombo) bestCombo = comboCount;
-
-            const basePts = 100;
-            const speedBonus = Math.round((remainingSec / 15) * 50);
-            playerScore += (basePts + speedBonus);
-            playSound('correct');
-        } else {
-            comboCount = 0;
-            playSound('wrong');
-        }
-
-        if (isAiCorrect) {
-            aiCorrectCount++;
-            const aiBasePts = 100;
-            const aiSpeedBonus = Math.floor(Math.random() * 30) + 10;
-            aiScore += (aiBasePts + aiSpeedBonus);
-        }
-
-        if (isPlayerCorrect && !isAiCorrect) {
-            outcomeBannerBadge.className = "outcome-badge-banner correct";
-            outcomeBannerText.innerHTML = "YOU OUTSMARTED THE AI!<br><small>Kamu benar, AI salah!</small>";
-        } else if (!isPlayerCorrect && isAiCorrect) {
-            outcomeBannerBadge.className = "outcome-badge-banner wrong";
-            outcomeBannerText.innerHTML = "AI GOT THIS ONE!<br><small>AI benar, kamu salah!</small>";
-        } else if (isPlayerCorrect && isAiCorrect) {
-            outcomeBannerBadge.className = "outcome-badge-banner correct";
-            outcomeBannerText.innerHTML = "BOTH GOT IT RIGHT!<br><small>Keduanya menjawab benar!</small>";
-        } else {
-            outcomeBannerBadge.className = "outcome-badge-banner wrong";
-            outcomeBannerText.innerHTML = "NOBODY GOT IT RIGHT!<br><small>Tidak ada yang benar!</small>";
-        }
-
-        updateScoreboardUI();
-
+        evaluateRoundResult(q);
     }, 1200);
 }
 
-function advanceToNextQuestion() {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < 10) {
-        loadQuestion(currentQuestionIndex);
+function evaluateRoundResult(q) {
+    const isPlayerCorrect = (gameState.playerChoice === q.correctIndex);
+    const isAiCorrect = (gameState.aiChoice === q.correctIndex);
+
+    // Calculate Scores & Combos
+    if (isPlayerCorrect) {
+        gameState.playerCorrectCount++;
+        gameState.currentCombo++;
+        if (gameState.currentCombo > gameState.bestCombo) {
+            gameState.bestCombo = gameState.currentCombo;
+        }
+
+        const baseScore = 100;
+        const timeBonus = gameState.timer * 10;
+        const comboBonus = (gameState.currentCombo - 1) * 25;
+        gameState.playerScore += (baseScore + timeBonus + comboBonus);
+        audioSynth.playCorrect();
     } else {
-        finishQuizBattle();
-    }
-}
-
-function updateScoreboardUI() {
-    playerScoreEl.textContent = playerScore;
-    aiScoreEl.textContent = aiScore;
-}
-
-function finishQuizBattle() {
-    const accuracyPct = Math.round((playerCorrectCount / 10) * 100);
-    const avgTimeSec = (totalAnswerTime / 10).toFixed(1);
-
-    resHumanScore.textContent = playerScore;
-    resAiScore.textContent = aiScore;
-
-    let aiLabel = "Smart AI";
-    if (selectedAiLevel === "rookie") aiLabel = "Rookie AI";
-    if (selectedAiLevel === "genius") aiLabel = "Genius AI";
-
-    if (playerScore > aiScore) {
-        winnerBanner.className = "winner-outcome-banner win";
-        winnerTitleText.textContent = "YOU WIN!";
-        playSound('victory');
-    } else if (aiScore > playerScore) {
-        winnerBanner.className = "winner-outcome-banner lose";
-        winnerTitleText.textContent = "AI WINS!";
-        playSound('wrong');
-    } else {
-        winnerBanner.className = "winner-outcome-banner draw";
-        winnerTitleText.textContent = "IT'S A DRAW!";
-        playSound('correct');
+        gameState.currentCombo = 0;
+        audioSynth.playWrong();
     }
 
-    statQuestions.textContent = "10";
-    statCorrect.textContent = `${playerCorrectCount}`;
-    statAccuracy.textContent = `${accuracyPct}%`;
-    statAvgTime.textContent = `${avgTimeSec}s`;
-    statBestCombo.textContent = `x${bestCombo}`;
-    statCategory.textContent = getCategoryLabel(selectedCategory);
-    statAiOpponent.textContent = aiLabel;
+    if (isAiCorrect) {
+        gameState.aiCorrectCount++;
+        const baseScore = 100;
+        const aiTimeBonus = Math.floor(Math.random() * 8 + 5) * 10;
+        gameState.aiScore += (baseScore + aiTimeBonus);
+    }
 
-    saveToLeaderboard({
-        name: playerName,
-        score: playerScore,
-        accuracy: `${accuracyPct}%`,
-        aiDefeated: aiLabel,
-        category: getCategoryLabel(selectedCategory),
-        date: new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'short' })
+    // Update Score Display
+    document.getElementById('playerScore').textContent = gameState.playerScore;
+    document.getElementById('aiScore').textContent = gameState.aiScore;
+
+    // Option Keys A, B, C, D
+    const keys = ["A", "B", "C", "D"];
+
+    const playerChoiceTag = document.getElementById('playerChoiceTag');
+    const playerCorrectBadge = document.getElementById('playerCorrectBadge');
+    const aiChoiceTag = document.getElementById('aiChoiceTag');
+    const aiCorrectBadge = document.getElementById('aiCorrectBadge');
+    const outcomeBanner = document.getElementById('outcomeBannerBadge');
+    const outcomeBannerText = document.getElementById('outcomeBannerText');
+
+    playerChoiceTag.textContent = gameState.playerChoice >= 0 ? keys[gameState.playerChoice] : "TIMEOUT";
+    playerChoiceTag.className = isPlayerCorrect ? "c-val correct" : "c-val wrong";
+    playerCorrectBadge.textContent = isPlayerCorrect ? "Benar ✓" : "Salah ✗";
+    playerCorrectBadge.className = isPlayerCorrect ? "c-badge correct" : "c-badge wrong";
+
+    aiChoiceTag.textContent = keys[gameState.aiChoice];
+    aiChoiceTag.className = isAiCorrect ? "c-val correct" : "c-val wrong";
+    aiCorrectBadge.textContent = isAiCorrect ? "Benar ✓" : "Salah ✗";
+    aiCorrectBadge.className = isAiCorrect ? "c-badge correct" : "c-badge wrong";
+
+    if (isPlayerCorrect && !isAiCorrect) {
+        outcomeBanner.className = "outcome-badge-banner correct";
+        outcomeBannerText.innerHTML = `<strong>KAMU MENGALAHKAN AI!</strong><br><small>Kamu benar, AI salah!</small>`;
+    } else if (!isPlayerCorrect && isAiCorrect) {
+        outcomeBanner.className = "outcome-badge-banner wrong";
+        outcomeBannerText.innerHTML = `<strong>AI UNGGUL ROUND INI!</strong><br><small>AI benar, kamu salah!</small>`;
+    } else if (isPlayerCorrect && isAiCorrect) {
+        outcomeBanner.className = "outcome-badge-banner correct";
+        outcomeBannerText.innerHTML = `<strong>SERI (SERUPA)!</strong><br><small>Keduanya berhasil menjawab benar!</small>`;
+    } else {
+        outcomeBanner.className = "outcome-badge-banner wrong";
+        outcomeBannerText.innerHTML = `<strong>KEDUANYA SALAH!</strong><br><small>Tidak ada yang mendapat poin sempurna.</small>`;
+    }
+
+    // Highlight correct & wrong options in quiz grid
+    const optionBtns = document.querySelectorAll('.opt-pill-btn');
+    optionBtns.forEach((btn, idx) => {
+        if (idx === q.correctIndex) {
+            btn.classList.add('correct');
+        } else if (idx === gameState.playerChoice && !isPlayerCorrect) {
+            btn.classList.add('wrong');
+        }
     });
+}
 
+function nextQuestion() {
+    loadQuestion(gameState.currentQuestionIndex + 1);
+}
+
+// -------------------------------------------------------------------
+// 6. FINISH BATTLE & LEADERBOARD MANAGEMENT
+// -------------------------------------------------------------------
+function finishBattle() {
     showScreen('screenResult');
+
+    document.getElementById('resHumanScore').textContent = gameState.playerScore;
+    document.getElementById('resAiScore').textContent = gameState.aiScore;
+
+    const winnerBanner = document.getElementById('winnerBanner');
+    const winnerTitleText = document.getElementById('winnerTitleText');
+
+    if (gameState.playerScore > gameState.aiScore) {
+        winnerBanner.className = "winner-outcome-banner win";
+        winnerTitleText.textContent = "KAMU MENANG MENGALAHKAN AI!";
+    } else if (gameState.playerScore < gameState.aiScore) {
+        winnerBanner.className = "winner-outcome-banner lose";
+        winnerTitleText.textContent = "AI MEMENANGKAN PERTANDINGAN!";
+    } else {
+        winnerBanner.className = "winner-outcome-banner tie";
+        winnerTitleText.textContent = "PERTANDINGAN SERI!";
+    }
+
+    const accuracy = Math.round((gameState.playerCorrectCount / 10) * 100);
+    const avgTime = (gameState.totalTimeSpent / 10).toFixed(1);
+
+    document.getElementById('statQuestions').textContent = "10";
+    document.getElementById('statCorrect').textContent = `${gameState.playerCorrectCount} / 10`;
+    document.getElementById('statAccuracy').textContent = `${accuracy}%`;
+    document.getElementById('statAvgTime').textContent = `${avgTime}s`;
+    document.getElementById('statBestCombo').textContent = `x${gameState.bestCombo}`;
+    document.getElementById('statCategory').textContent = gameState.selectedCategory;
+
+    const aiNames = { rookie: "Rookie AI", smart: "Smart AI", genius: "Genius AI" };
+    document.getElementById('statAiOpponent').textContent = aiNames[gameState.selectedAi] || "AI";
+
+    // Save Score Record to LocalStorage
+    saveLeaderboardEntry({
+        name: gameState.playerName,
+        score: gameState.playerScore,
+        accuracy: `${accuracy}%`,
+        ai: aiNames[gameState.selectedAi] || "AI",
+        category: gameState.selectedCategory,
+        date: new Date().toLocaleDateString('id-ID', { day: '2-digit', month: 'short', year: 'numeric' })
+    });
 }
 
-// -------------------------------------------------------------------
-// 8. LEADERBOARD SYSTEM (LOCALSTORAGE)
-// -------------------------------------------------------------------
-function saveToLeaderboard(record) {
-    leaderboardData.push(record);
-    leaderboardData.sort((a, b) => b.score - a.score);
-    leaderboardData = leaderboardData.slice(0, 20);
-
-    localStorage.setItem('human_ai_leaderboard', JSON.stringify(leaderboardData));
+function saveLeaderboardEntry(entry) {
+    let lb = JSON.parse(localStorage.getItem('human_vs_ai_leaderboard') || '[]');
+    lb.push(entry);
+    lb.sort((a, b) => b.score - a.score);
+    lb = lb.slice(0, 20); // Keep top 20
+    localStorage.setItem('human_vs_ai_leaderboard', JSON.stringify(lb));
 }
 
-function renderLeaderboard() {
-    leaderboardTbody.innerHTML = '';
+function loadLeaderboardData() {
+    const tbody = document.getElementById('leaderboardTbody');
+    const emptyMsg = document.getElementById('emptyLbMsg');
 
-    if (leaderboardData.length === 0) {
-        emptyLbMsg.classList.remove('hidden');
+    if (!tbody) return;
+    tbody.innerHTML = '';
+
+    const lb = JSON.parse(localStorage.getItem('human_vs_ai_leaderboard') || '[]');
+
+    if (lb.length === 0) {
+        if (emptyMsg) emptyMsg.classList.remove('hidden');
         return;
     }
 
-    emptyLbMsg.classList.add('hidden');
+    if (emptyMsg) emptyMsg.classList.add('hidden');
 
-    leaderboardData.forEach((row, index) => {
+    lb.forEach((item, idx) => {
         const tr = document.createElement('tr');
-        const rankBadge = index === 0 ? '🥇 1' : index === 1 ? '🥈 2' : index === 2 ? '🥉 3' : `${index + 1}`;
-
         tr.innerHTML = `
-            <td><strong>${rankBadge}</strong></td>
-            <td><strong>${escapeHtml(row.name)}</strong></td>
-            <td style="color: var(--gold-accent); font-weight: 800;">${row.score}</td>
-            <td>${row.accuracy}</td>
-            <td>${row.aiDefeated}</td>
-            <td>${row.category}</td>
-            <td style="color: var(--text-muted); font-size: 0.78rem;">${row.date}</td>
+            <td><strong>#${idx + 1}</strong></td>
+            <td>${escapeHtml(item.name)}</td>
+            <td><strong style="color: #38bdf8;">${item.score}</strong></td>
+            <td>${item.accuracy}</td>
+            <td>${item.ai}</td>
+            <td>${item.category}</td>
+            <td><small>${item.date}</small></td>
         `;
-        leaderboardTbody.appendChild(tr);
+        tbody.appendChild(tr);
     });
 }
 
-function clearLeaderboard() {
-    if (confirm("Apakah Anda yakin ingin menghapus seluruh data Papan Skor?")) {
-        leaderboardData = [];
-        localStorage.removeItem('human_ai_leaderboard');
-        renderLeaderboard();
-        alert("Papan Skor berhasil dibersihkan!");
+function clearLeaderboardData() {
+    if (confirm('Apakah Anda yakin ingin menghapus seluruh data papan skor?')) {
+        localStorage.removeItem('human_vs_ai_leaderboard');
+        loadLeaderboardData();
     }
 }
 
-// -------------------------------------------------------------------
-// 9. UTILITIES & HELPERS
-// -------------------------------------------------------------------
-function getCategoryLabel(cat) {
-    const labels = {
-        'LOGIC': 'Logic',
-        'MATH': 'Math',
-        'TECH': 'Technology',
-        'PATTERN': 'Pattern',
-        'GENERAL': 'General Knowledge',
-        'RANDOM': 'Random'
-    };
-    return labels[cat] || 'Logic';
-}
-
 function escapeHtml(str) {
-    return String(str)
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;");
+    return str.replace(/[&<>"']/g, function(m) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[m];
+    });
 }
-
-document.addEventListener('DOMContentLoaded', initApp);
