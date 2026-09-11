@@ -49,37 +49,6 @@ human-vs-ai/
 
 ---
 
-## 🚀 Cara Hosting ke GitHub Pages
-
-Project ini 100% kompatibel dan siap di-deploy langsung ke **GitHub Pages**.
-
-### Langkah Deployment:
-
-1. **Buat Repository Baru di GitHub**:
-   - Buka [GitHub](https://github.com/) dan buat repository baru bernama `human-vs-ai`.
-
-2. **Upload Seluruh Berkas**:
-   - Push berkas dari folder `human-vs-ai/` ke branch `main`:
-     ```bash
-     git init
-     git add .
-     git commit -m "Initial commit - HUMAN vs AI Quiz Battle"
-     git branch -M main
-     git remote add origin https://github.com/USERNAME/human-vs-ai.git
-     git push -u origin main
-     ```
-
-3. **Aktifkan GitHub Pages**:
-   - Masuk ke tab **Settings** pada repository GitHub Anda.
-   - Pilih menu **Pages** di sebelah kiri.
-   - Pada bagian **Build and deployment** > **Source**, pilih **Deploy from a branch**.
-   - Pada **Branch**, pilih `main` dan folder `/ (root)`, lalu klik **Save**.
-
-4. **Buka Game Online**:
-   - Game Anda akan langsung aktif di URL:  
-     `https://USERNAME.github.io/human-vs-ai/`
-
----
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -88,7 +57,3 @@ Project ini 100% kompatibel dan siap di-deploy langsung ke **GitHub Pages**.
 - **JavaScript (ES6+)**: Dynamic DOM manipulation, Web Audio API, `performance.now()`, & `localStorage`.
 
 ---
-
-## 📄 Lisensi
-
-Project ini dibuat khusus untuk pameran teknologi fakultas dan bebas digunakan serta dikembangkan lebih lanjut.
