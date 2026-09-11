@@ -132,7 +132,8 @@ body {
     border: 1px solid var(--card-border);
     border-radius: var(--radius-full);
     padding: 3px;
-    gap: 4px;
+    gap: 2px;
+    justify-content: space-between;
     overflow-x: auto;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
@@ -145,17 +146,17 @@ body {
     background: transparent;
     border: none;
     color: var(--text-muted);
-    padding: 6px 14px;
+    padding: 5px 8px;
     border-radius: var(--radius-full);
     font-family: var(--font-body);
-    font-size: 0.8rem;
+    font-size: 0.72rem;
     font-weight: 600;
     cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 4px;
     flex-shrink: 0;
-    min-height: 36px;
+    min-height: 34px;
     transition: all 0.25s ease;
 }
 
@@ -193,7 +194,7 @@ body {
     width: 100%;
 }
 
-.view-screen.hidden {
+.hidden {
     display: none !important;
 }
 
