@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#061527">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>HUMAN vs AI — Outsmart • Learn • Grow Together</title>
+    <meta name="description" content="Pertandingan kuis interaktif pameran teknologi: Manusia vs AI. Uji pengetahuan, logika, dan kecepatanmu!">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    
+    <!-- Google Fonts: Montserrat, Poppins & Rajdhani -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,700&family=Poppins:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-page-wrapper">
+        <!-- Top Navigation Header -->
+        <header class="top-nav-bar">
+            <div class="nav-brand-group" id="navBrandLink">
+                <img src="assets/logo.png" alt="Logo" class="nav-emblem-logo">
+                <div class="nav-brand-text">
+                    <span class="brand-title">HUMAN <span class="vs-tag">vs</span> <span class="ai-tag">AI</span></span>
+                    <span class="brand-tagline">Outsmart • Learn • Grow Together</span>
+                </div>
+            </div>
+
+            <nav class="nav-tabs-capsule">
+                <button class="nav-tab active" data-target="screenHome">
+                    <span class="tab-icon">🏠</span> Beranda
+                </button>
+                <button class="nav-tab" data-target="screenPlayerName">
+                    <span class="tab-icon">🎮</span> Main
+                </button>
+                <button class="nav-tab" data-target="screenLeaderboard">
+                    <span class="tab-icon">🏆</span> Papan Skor
+                </button>
+                <button class="nav-tab" data-target="screenHowToPlay">
+                    <span class="tab-icon">📖</span> Cara Bermain
+                </button>
+                <button class="nav-tab" data-target="screenSettings">
+                    <span class="tab-icon">⚙️</span> Pengaturan
+                </button>
+            </nav>
+        </header>
+
+        <!-- MAIN SPA CONTENT DISPLAY CONTAINER -->
+        <main class="content-display-area">
+
+            <!-- SCREEN 1: HOME (INDONESIAN LANGUAGE - HIMASI EDITION) -->
+            <section id="screenHome" class="view-screen home-screen-view modern-arena-layout">
+
+                <!-- Top Left Organization Header Info -->
+                <div class="top-org-badge">
+                    <img src="assets/logo.png" alt="Logo HIMASI" class="top-org-logo">
+                    <div class="top-org-text">
+                        <span class="org-name">HIMASI</span>
+                        <span class="org-motto">BERSAMA UNTUK PERUBAHAN</span>
+                    </div>
+                </div>
+
+                <!-- Top Hero Center Area -->
+                <div class="arena-hero-head">
+                    <div class="arena-logo-glow-wrapper">
+                        <img src="assets/logo.png" alt="Logo HIMASI" class="arena-center-emblem">
+                    </div>
+                    <h1 class="arena-main-title">HUMAN <span class="gold-spark">VS</span> <span class="cyan-spark">AI</span></h1>
+                    <p class="arena-tagline">BISAKAH KAMU MENGALAHKAN AI?</p>
+                    <p class="arena-desc">Uji pengetahuan, logika, dan kecepatan berpikirmu bertarung melawan Kecerdasan Buatan (AI).</p>
+                </div>
+
+                <!-- Center Main Action Button -->
+                <div class="arena-action-center">
+                    <button id="homeStartBtn" class="btn-primary-battle">
+                        MULAI PERTANDINGAN <span class="battle-btn-arrow">➔</span>
+                    </button>
+                </div>
+
+                <!-- 4 Info Pills Grid -->
+                <div class="arena-features-grid">
+                    <div class="arena-feat-card" id="featCategoriesBtn">
+                        <div class="feat-icon-box">🎓</div>
+                        <div class="feat-info">
+                            <span class="feat-title">Beragam Kategori</span>
+                        </div>
+                    </div>
+
+                    <div class="arena-feat-card" id="featLeaderboardBtn">
+                        <div class="feat-icon-box">🏆</div>
+                        <div class="feat-info">
+                            <span class="feat-title">Papan Skor</span>
+                        </div>
+                    </div>
+
+                    <div class="arena-feat-card" id="featAiBtn">
+                        <div class="feat-icon-box">🤖</div>
+                        <div class="feat-info">
+                            <span class="feat-title">Lawan AI Cerdas</span>
+                        </div>
+                    </div>
+
+                    <div class="arena-feat-card" id="featProgressBtn">
+                        <div class="feat-icon-box">📊</div>
+                        <div class="feat-info">
+                            <span class="feat-title">Statistik Realtime</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Curved / Floral Ornaments Layer -->
+                <div class="curved-ornament ornament-left"></div>
+                <div class="curved-ornament ornament-right"></div>
+
+                <!-- Exhibition Footer -->
+                <footer class="arena-footer">
+                    <span class="foot-left-tag">PENGETAHUAN MENHUBUNGKAN KITA</span>
+                    <span class="foot-mid-tag">— HIMASI • BERSAMA UNTUK PERUBAHAN —</span>
+                    <span class="foot-right-tag">BERSAMA DEMI MASA DEPAN CERAH</span>
+                </footer>
+            </section>
+
+            <!-- SCREEN 2: ENTER YOUR NAME -->
+            <section id="screenPlayerName" class="view-screen hidden">
+                <div class="form-card-container">
+                    <div class="card-top-logo">
+                        <img src="assets/logo.png" alt="Logo" class="mini-card-logo">
+                        <span class="card-logo-text">HUMAN <small>vs</small> AI</span>
+                    </div>
+
+                    <h2 class="form-card-title">MASUKKAN NAMA KAMU</h2>
+                    
+                    <div class="input-field-group">
+                        <span class="user-avatar-icon">👤</span>
+                        <input type="text" id="playerNameInput" class="custom-glass-input" placeholder="Tulis nama kamu..." maxlength="15" autocomplete="off">
+                    </div>
+                    <p id="nameError" class="error-msg-text hidden">⚠️ Silakan tulis nama kamu terlebih dahulu!</p>
+
+                    <div class="form-action-row">
+                        <button id="nameContinueBtn" class="btn-gold-pill">
+                            LANJUTKAN <span class="arrow-right">➔</span>
+                        </button>
+                    </div>
+
+                    <p class="quote-footer">"Bersama untuk Perubahan."</p>
+                </div>
+            </section>
+
+            <!-- SCREEN 3: CHOOSE CATEGORY -->
+            <section id="screenCategory" class="view-screen hidden">
+                <div class="screen-title-banner">
+                    <img src="assets/logo.png" alt="Logo" class="mini-card-logo">
+                    <h2 class="banner-title">HUMAN <small>vs</small> AI</h2>
+                    <p class="banner-sub">Pilih Kategori Soal</p>
+                </div>
+
+                <div class="category-6-grid">
+                    <button class="cat-glass-card active" data-category="LOGIC">
+                        <span class="cat-card-icon">🧠</span>
+                        <span class="cat-card-title">Logika</span>
+                    </button>
+                    <button class="cat-glass-card" data-category="MATH">
+                        <span class="cat-card-icon">🧮</span>
+                        <span class="cat-card-title">Matematika</span>
+                    </button>
+                    <button class="cat-glass-card" data-category="TECH">
+                        <span class="cat-card-icon">💻</span>
+                        <span class="cat-card-title">Teknologi</span>
+                    </button>
+                    <button class="cat-glass-card" data-category="PATTERN">
+                        <span class="cat-card-icon">🧩</span>
+                        <span class="cat-card-title">Pola Gambar</span>
+                    </button>
+                    <button class="cat-glass-card" data-category="GENERAL">
+                        <span class="cat-card-icon">🌐</span>
+                        <span class="cat-card-title">Pengetahuan Umum</span>
+                    </button>
+                    <button class="cat-glass-card" data-category="RANDOM">
+                        <span class="cat-card-icon">🎲</span>
+                        <span class="cat-card-title">Acak (Random)</span>
+                    </button>
+                </div>
+
+                <div class="dual-actions-bar">
+                    <button id="catBackBtn" class="btn-outline-pill">
+                        ← Kembali
+                    </button>
+                    <button id="catNextBtn" class="btn-gold-pill">
+                        LANJUTKAN ➔
+                    </button>
+                </div>
+            </section>
+
+            <!-- SCREEN 4: CHOOSE AI OPPONENT -->
+            <section id="screenAiSelection" class="view-screen hidden">
+                <div class="screen-title-banner">
+                    <img src="assets/logo.png" alt="Logo" class="mini-card-logo">
+                    <h2 class="banner-title">HUMAN <small>vs</small> AI</h2>
+                    <p class="banner-sub">Pilih Lawan AI</p>
+                </div>
+
+                <div class="ai-robot-cards-grid">
+                    <div class="ai-robot-card" data-ai="rookie">
+                        <div class="robot-avatar-img">🤖</div>
+                        <h3 class="robot-name">Rookie AI</h3>
+                        <span class="robot-diff-tag easy">Tingkat: Mudah</span>
+                        <span class="robot-acc-badge">~ 70% benar</span>
+                        <p class="robot-desc-text">Cocok untuk pemula</p>
+                    </div>
+
+                    <div class="ai-robot-card active" data-ai="smart">
+                        <div class="robot-avatar-img">🤖</div>
+                        <h3 class="robot-name">Smart AI</h3>
+                        <span class="robot-diff-tag medium">Tingkat: Sedang</span>
+                        <span class="robot-acc-badge">~ 85% benar</span>
+                        <p class="robot-desc-text">Tantangan seimbang</p>
+                    </div>
+
+                    <div class="ai-robot-card" data-ai="genius">
+                        <div class="robot-avatar-img">🤖</div>
+                        <h3 class="robot-name">Genius AI</h3>
+                        <span class="robot-diff-tag hard">Tingkat: Sulit</span>
+                        <span class="robot-acc-badge">~ 95% benar</span>
+                        <p class="robot-desc-text">Untuk yang yakin dengan kemampuan</p>
+                    </div>
+                </div>
+
+                <div class="dual-actions-bar">
+                    <button id="aiBackBtn" class="btn-outline-pill">
+                        ← Kembali
+                    </button>
+                    <button id="startQuizBtn" class="btn-gold-pill">
+                        MULAI KUIS ➔
+                    </button>
+                </div>
+            </section>
+
+            <!-- SCREEN 5: GAMEPLAY (QUIZ) -->
+            <section id="screenQuiz" class="view-screen hidden">
+                <!-- Top Gameplay Header Scoreboard -->
+                <div class="gameplay-top-header">
+                    <div class="player-score-tag human-side">
+                        <span class="user-icon">👤</span>
+                        <div class="player-info-col">
+                            <span id="quizHumanName" class="p-name">Pemain</span>
+                            <span class="p-score-label">Skor: <strong id="playerScore">0</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="gameplay-center-status">
+                        <span class="g-title">HUMAN <small>vs</small> AI</span>
+                        <span id="questionCounter" class="g-q-count">Pertanyaan 1 dari 10</span>
+                        
+                        <!-- Timer Progress Bar -->
+                        <div class="timer-bar-wrapper">
+                            <div class="timer-text">WAKTU <strong id="timerSeconds">15s</strong></div>
+                            <div class="timer-track"><div id="timerBarFill" class="timer-fill" style="width: 100%;"></div></div>
+                        </div>
+                    </div>
+
+                    <div class="player-score-tag ai-side">
+                        <div class="player-info-col text-right">
+                            <span id="quizAiName" class="p-name">AI</span>
+                            <span class="p-score-label">Skor: <strong id="aiScore">0</strong></span>
+                        </div>
+                        <span class="user-icon">🤖</span>
+                    </div>
+                </div>
+
+                <!-- Main Question & Options Container -->
+                <div class="question-main-box">
+                    <div class="question-card-text">
+                        <h3 id="questionText">Memuat pertanyaan...</h3>
+                    </div>
+
+                    <div id="optionsGrid" class="options-4-column-grid">
+                        <button class="opt-pill-btn" data-index="0">
+                            <span class="opt-key">A</span>
+                            <span class="opt-value">Pilihan A</span>
+                        </button>
+                        <button class="opt-pill-btn" data-index="1">
+                            <span class="opt-key">B</span>
+                            <span class="opt-value">Pilihan B</span>
+                        </button>
+                        <button class="opt-pill-btn" data-index="2">
+                            <span class="opt-key">C</span>
+                            <span class="opt-value">Pilihan C</span>
+                        </button>
+                        <button class="opt-pill-btn" data-index="3">
+                            <span class="opt-key">D</span>
+                            <span class="opt-value">Pilihan D</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- AI Thinking Animation / Outcome Feedback Overlay -->
+                <div id="aiOutcomeOverlay" class="ai-outcome-overlay hidden">
+                    <!-- AI Thinking State -->
+                    <div id="aiThinkingState" class="ai-thinking-card">
+                        <div class="robot-thinking-glow">🤖</div>
+                        <h4 class="thinking-title">AI SEDANG BERPIKIR...</h4>
+                        <p class="thinking-sub">Menganalisis jawaban kamu...</p>
+                        <div class="loading-scan-bar"><div class="scan-bar-fill"></div></div>
+                    </div>
+
+                    <!-- Round Result State -->
+                    <div id="roundResultState" class="round-result-card hidden">
+                        <div id="outcomeBannerBadge" class="outcome-badge-banner correct">
+                            <span class="check-icon">✓</span>
+                            <span id="outcomeBannerText">KAMU MENGALAHKAN AI!<br><small>Kamu benar, AI salah!</small></span>
+                        </div>
+
+                        <div class="round-choices-compare">
+                            <div class="choice-box">
+                                <span class="c-label">Jawaban Kamu</span>
+                                <span id="playerChoiceTag" class="c-val correct">A</span>
+                                <span id="playerCorrectBadge" class="c-badge correct">Benar ✓</span>
+                            </div>
+                            <div class="choice-box">
+                                <span class="c-label">Jawaban AI</span>
+                                <span id="aiChoiceTag" class="c-val wrong">C</span>
+                                <span id="aiCorrectBadge" class="c-badge wrong">Salah ✗</span>
+                            </div>
+                        </div>
+
+                        <button id="nextQuestionBtn" class="btn-gold-pill">
+                            SOAL BERIKUTNYA ➔
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SCREEN 6: BATTLE RESULT (HASIL PERTANDINGAN) -->
+            <section id="screenResult" class="view-screen hidden">
+                <div class="screen-title-banner">
+                    <img src="assets/logo.png" alt="Logo" class="mini-card-logo">
+                    <h2 class="banner-title">HASIL PERTANDINGAN</h2>
+                </div>
+
+                <!-- Score Comparison Card -->
+                <div class="battle-score-showcase">
+                    <div class="side-score-box human">
+                        <span class="side-tag">KAMU</span>
+                        <span id="resHumanScore" class="side-pts">0</span>
+                        <span class="side-unit">POIN</span>
+                    </div>
+
+                    <div class="center-trophy-emblem">🏆</div>
+
+                    <div class="side-score-box ai">
+                        <span class="side-tag">AI</span>
+                        <span id="resAiScore" class="side-pts">0</span>
+                        <span class="side-unit">POIN</span>
+                    </div>
+                </div>
+
+                <!-- Winner Outcome Banner -->
+                <div id="winnerBanner" class="winner-outcome-banner win">
+                    <span class="w-icon">🏆</span>
+                    <span id="winnerTitleText" class="w-title">KAMU MENANG!</span>
+                </div>
+
+                <!-- Stats Breakdown Table Card -->
+                <div class="result-stats-table-card">
+                    <div class="stat-row"><span>Jumlah Soal</span><strong id="statQuestions">10</strong></div>
+                    <div class="stat-row"><span>Jawaban Benar</span><strong id="statCorrect">0</strong></div>
+                    <div class="stat-row"><span>Akurasi</span><strong id="statAccuracy">0%</strong></div>
+                    <div class="stat-row"><span>Rata-Rata Waktu</span><strong id="statAvgTime">0s</strong></div>
+                    <div class="stat-row"><span>Combo Terbaik</span><strong id="statBestCombo">x1</strong></div>
+                    <div class="stat-row"><span>Kategori</span><strong id="statCategory">Acak</strong></div>
+                    <div class="stat-row"><span>Lawan AI</span><strong id="statAiOpponent">Smart AI</strong></div>
+                </div>
+
+                <!-- Action Buttons Row -->
+                <div class="result-three-buttons-row">
+                    <button id="resPlayAgainBtn" class="btn-white-pill">
+                        MAIN LAGI
+                    </button>
+                    <button id="resChangeAiBtn" class="btn-outline-pill">
+                        GANTI AI
+                    </button>
+                    <button id="resBackHomeBtn" class="btn-navy-pill">
+                        KEMBALI KE BERANDA
+                    </button>
+                </div>
+            </section>
+
+            <!-- SCREEN 7: LEADERBOARD -->
+            <section id="screenLeaderboard" class="view-screen hidden">
+                <div class="screen-title-banner">
+                    <img src="assets/logo.png" alt="Logo" class="mini-card-logo">
+                    <h2 class="banner-title">HUMAN <small>vs</small> AI</h2>
+                    <p class="banner-sub">PAPAN SKOR</p>
+                </div>
+
+                <div class="leaderboard-tabs-row">
+                    <button class="lb-tab active">Semua Waktu</button>
+                    <button class="lb-tab">Browser Ini</button>
+                    <button class="lb-tab">Perangkat Ini</button>
+                </div>
+
+                <div class="leaderboard-glass-table-wrapper">
+                    <table class="leaderboard-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Nama</th>
+                                <th>Skor</th>
+                                <th>Akurasi</th>
+                                <th>Lawan AI</th>
+                                <th>Kategori</th>
+                                <th>Tanggal</th>
+                            </tr>
+                        </thead>
+                        <tbody id="leaderboardTbody">
+                            <!-- JS Populated -->
+                        </tbody>
+                    </table>
+                    <p id="emptyLbMsg" class="empty-lb-text hidden">Belum ada data skor tersimpan.</p>
+                </div>
+
+                <div class="dual-actions-bar">
+                    <button id="lbBackBtn" class="btn-outline-pill">
+                        ← Kembali
+                    </button>
+                    <button id="clearLbBtn" class="btn-red-pill">
+                        🗑️ Hapus Papan Skor
+                    </button>
+                </div>
+            </section>
+
+            <!-- SCREEN 8: HOW TO PLAY -->
+            <section id="screenHowToPlay" class="view-screen hidden">
+                <div class="screen-title-banner">
+                    <img src="assets/logo.png" alt="Logo" class="mini-card-logo">
+                    <h2 class="banner-title">HUMAN <small>vs</small> AI</h2>
+                    <p class="banner-sub">CARA BERMAIN</p>
+                </div>
+
+                <div class="how-to-play-glass-card">
+                    <div class="step-line-item">
+                        <span class="step-num">1</span>
+                        <div class="step-desc"><strong>Pilih kategori soal</strong><br><small>Tentukan jenis pertanyaan yang kamu inginkan.</small></div>
+                    </div>
+                    <div class="step-line-item">
+                        <span class="step-num">2</span>
+                        <div class="step-desc"><strong>Pilih lawan AI</strong><br><small>Pilih tingkat kesulitan (Rookie, Smart, atau Genius).</small></div>
+                    </div>
+                    <div class="step-line-item">
+                        <span class="step-num">3</span>
+                        <div class="step-desc"><strong>Jawab 10 pertanyaan</strong><br><small>Pilih jawaban yang menurut kamu benar.</small></div>
+                    </div>
+                    <div class="step-line-item">
+                        <span class="step-num">4</span>
+                        <div class="step-desc"><strong>Jawab sebelum waktu habis</strong><br><small>Setiap soal memiliki timer 15 detik.</small></div>
+                    </div>
+                    <div class="step-line-item">
+                        <span class="step-num">5</span>
+                        <div class="step-desc"><strong>Kalahkan AI</strong><br><small>Dapatkan skor lebih tinggi dari AI.</small></div>
+                    </div>
+                    <div class="step-line-item">
+                        <span class="step-num">6</span>
+                        <div class="step-desc"><strong>Masuk leaderboard</strong><br><small>Simpan namamu di papan peringkat!</small></div>
+                    </div>
+                </div>
+
+                <div class="single-center-action">
+                    <button id="howBackBtn" class="btn-outline-pill">
+                        ← Kembali
+                    </button>
+                </div>
+
+                <p class="quote-footer">"Pengetahuan Menghubungkan Kita"</p>
+            </section>
+
+            <!-- SCREEN 9: SETTINGS -->
+            <section id="screenSettings" class="view-screen hidden">
+                <div class="screen-title-banner">
+                    <img src="assets/logo.png" alt="Logo" class="mini-card-logo">
+                    <h2 class="banner-title">HUMAN <small>vs</small> AI</h2>
+                    <p class="banner-sub">PENGATURAN</p>
+                </div>
+
+                <div class="settings-glass-card">
+                    <div class="setting-toggle-row">
+                        <span>🔊 Efek Suara (Sound)</span>
+                        <label class="switch-toggle"><input type="checkbox" id="soundEffectsToggle" checked><span class="slider-round"></span></label>
+                    </div>
+                    <div class="setting-toggle-row">
+                        <span>🎵 Musik Latar (Music)</span>
+                        <label class="switch-toggle"><input type="checkbox" id="bgMusicToggle" checked><span class="slider-round"></span></label>
+                    </div>
+                    <div class="setting-toggle-row">
+                        <span>⏱️ Tampilkan Timer</span>
+                        <label class="switch-toggle"><input type="checkbox" id="showTimerToggle" checked><span class="slider-round"></span></label>
+                    </div>
+                    <div class="setting-toggle-row">
+                        <span>✨ Animasi</span>
+                        <label class="switch-toggle"><input type="checkbox" id="animationsToggle" checked><span class="slider-round"></span></label>
+                    </div>
+
+                    <div class="setting-buttons-col">
+                        <button id="resetGameDataBtn" class="btn-setting-action">
+                            🔄 Reset Data Game
+                        </button>
+                        <button id="clearLeaderboardSettingBtn" class="btn-setting-action danger">
+                            🗑️ Bersihkan Papan Skor
+                        </button>
+                    </div>
+                </div>
+
+                <div class="single-center-action">
+                    <button id="settingsBackBtn" class="btn-outline-pill">
+                        ← Kembali
+                    </button>
+                </div>
+
+                <p class="quote-footer">Bersama untuk Perubahan</p>
+            </section>
+        </main>
+    </div>
+
+    <!-- Hidden Audio Fallback -->
+    <audio id="clickAudioFallback" src="assets/sounds/click.wav" preload="auto"></audio>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
